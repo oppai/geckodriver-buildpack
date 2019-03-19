@@ -42,4 +42,3 @@ mkdir -p $CACHE_DIR/$ARCHIVE_NAME
 mkdir -p $BUILD_DIR/vendor
 tar xzf $CACHE_DIR/$FILE_NAME -C $CACHE_DIR
 mv $CACHE_DIR/$ARCHIVE_NAME $BUILD_DIR/vendor/
-ln -s $BUILD_DIR/vendor/$ARCHIVE_NAME /usr/local/bin/
